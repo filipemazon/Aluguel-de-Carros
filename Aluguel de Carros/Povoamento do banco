@@ -1,0 +1,81 @@
+INSERT INTO Cliente VALUES (1,'Filipe','12345678900','MG11235548','Joao Monlevade');
+INSERT INTO Cliente VALUES (2,'Indianara','02345678912','MG96566013','Joao Monlevade');
+INSERT INTO Cliente VALUES (3,'Davi','34512370010','M15763546','Joao Monlevade');
+INSERT INTO Cliente VALUES (4,'Bruno','12356700074','MG14553620','Joao Monlevade');
+INSERT INTO Cliente VALUES (5,'Caio','23641057763','M25213645','Mariana');
+INSERT INTO Cliente VALUES (6,'Ana Maria','36925814701','M87459618','Joao Monlevade');
+INSERT INTO Cliente VALUES (7,'Clara','74185296325','MG85201430','Mariana');
+INSERT INTO Cliente VALUES (8,'Bruna','78945612301','MG12378965','Rio Piracicaba');
+INSERT INTO Cliente VALUES (9,'Emanuel','95126348712','MG14785292','Itabira');
+INSERT INTO Cliente VALUES (10,'Manuela','35715985202','MG12345678','Rio Piracicaba');
+
+
+
+INSERT INTO Cidade VALUES (1,"JOAO MONLEVADE");
+INSERT INTO Cidade VALUES (2,"ITABIRA");
+INSERT INTO Cidade VALUES (3,"RIO PIRACICABA");
+INSERT INTO Cidade VALUES (4,"MARIANA");
+
+
+
+INSERT INTO Marca VALUES (1,"VOLKSWAGEN");
+INSERT INTO Marca VALUES (2,"FIAT");
+INSERT INTO Marca VALUES (3,"RENAULT");
+INSERT INTO Marca VALUES (4,"Hyundai");
+INSERT INTO Marca VALUES (5,"Ford");
+INSERT INTO Marca VALUES (6,"Honda");
+INSERT INTO Marca VALUES (7,"Citroen");
+INSERT INTO Marca VALUES (8,"Peugeot");
+
+
+
+INSERT INTO TipoModelo VALUES (1,"CROSSFOX",1);
+INSERT INTO TipoModelo VALUES (2,"VOYAGE",1);
+INSERT INTO TipoModelo VALUES (3,"PALIO",2);
+INSERT INTO TipoModelo VALUES (4,"SIENA",2);
+INSERT INTO TipoModelo VALUES (5,"SANDERO",3);
+INSERT INTO TipoModelo VALUES (6, "LOGAN",3);
+INSERT INTO TipoModelo VALUES (7, "HB20 2",4);
+INSERT INTO TipoModelo VALUES (8, "Fiesta",5);
+INSERT INTO TipoModelo VALUES (9, "Civic",6);
+INSERT INTO TipoModelo VALUES (10, "Fit",6);
+INSERT INTO TipoModelo VALUES (11, "C3",7);
+INSERT INTO TipoModelo VALUES (12, "308",8);
+
+
+
+INSERT INTO Filial VALUES(1, 1, "Filial João Monlevade 1");
+INSERT INTO Filial VALUES(2, 1, "Filial João Monlevade 2");
+INSERT INTO Filial VALUES(3, 2, "Filial Itabira 1");
+INSERT INTO Filial VALUES(4, 2, "Filial Itabira 2");
+INSERT INTO Filial VALUES(5, 3, "Filial Rio Piracicaba 1");
+INSERT INTO Filial VALUES(6, 3, "Filial Mariana 1");
+
+
+
+INSERT INTO Veiculo VALUES (1,'BDI1234', '5CH123A', '100','1','1','1','1','prata','0','1','1','0');
+INSERT INTO Veiculo VALUES (2,'HGZ5678', '6JK456B', '200','0','1','1','0','vermelho','1','2','1','1');
+INSERT INTO Veiculo VALUES (3,'EDT9012', '7BM789C', '300','0','0','1','0','preto','0','3','2','1');
+INSERT INTO Veiculo VALUES (4,'FBG3456', '8BH012D', '400','1','0','1','1','branco','0','4','1','0');
+INSERT INTO Veiculo VALUES (5,'MKJ0123', '9VG345E', '500','1','1','1','1','azul','1','5','1','0');
+INSERT INTO Veiculo VALUES (6,'MSD1020', '1JM678F', '600','1','0','1','1','cinza','1','6','1','1');
+INSERT INTO Veiculo VALUES (7,'KBM2235', '2ER978G', '1000','1','1','1','1','prata','1','8','2','1');
+INSERT INTO Veiculo VALUES (8,'JHM4521', '3BR967H', '1450','0','1','1','1','preto','1','10','2','0');
+INSERT INTO Veiculo VALUES (9,'HMK4741', '4GI177I', '1200','1','1','1','1','branco','1','10','1','1');
+INSERT INTO Veiculo VALUES (10,'MMJ4981', '5KL256J', '1200','0','1','0','0','azul','0','7','2','1');
+
+
+
+INSERT INTO Reserva VALUES (11,'2018-02-19','2018-02-05','2018-02-20',1,'100','2018-02-02','Filipe','Maria','2','NULL',NULL);
+INSERT INTO Reserva VALUES (12,'2018-02-11', '2018-02-05', '2018-02-12',4,'200','2018-02-05','Bruno','Rodrigo','3','NULL',NULL);
+INSERT INTO Reserva VALUES (13,'2018-02-06', '2018-02-03', '2018-02-06',2,'150','2018-02-03','Indianara','Ana','1','NULL',NULL);
+INSERT INTO Reserva VALUES (14,NULL, '2018-02-03', '2018-02-09',7,'250','2018-02-02','Guilherme','Clara','2','NULL',NULL);
+INSERT INTO Reserva VALUES (15,'2018-02-02', '2018-01-16', '2018-02-01',3,'300','2018-01-15','Davi','NULL','7','NULL',NULL);
+INSERT INTO Reserva VALUES (16,NULL, '2018-02-09', '2018-02-19',6,'250','2018-02-12','Ana Maria','Gustavo','5','NULL',NULL);
+INSERT INTO Reserva VALUES (17,'2018-01-22', '2018-01-08', '2018-01-19',8,'250','2018-01-04','Antônio','Bruna','8','NULL',NULL);
+INSERT INTO Reserva VALUES (18,'2018-01-30', '2018-01-15', '2018-01-24',10,'350','2018-01-09','Manuela','Bruno','4','NULL',NULL);
+INSERT INTO Reserva VALUES (19,NULL, '2018-02-01', '2018-02-08',9,'500','2018-01-31','Vinicius','Emanuel','6','NULL',NULL);
+INSERT INTO Reserva VALUES (20,NULL, '2018-02-05', '2018-02-23',5,'350','2018-02-01','Caio','NULL','9','NULL',NULL);
+
+
+
